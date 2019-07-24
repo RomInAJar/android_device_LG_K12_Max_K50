@@ -2,7 +2,7 @@
 LOCAL_PATH := device/Infinix/X626
 
 RECOVERY_VARIANT := twrp
-AB_OTA_UPDATER := true
+AB_OTA_UPDATER := false
 BOARD_USES_RECOVERY_AS_BOOT := false
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 
@@ -94,13 +94,3 @@ TW_EXTRA_LANGUAGES := true
 TW_DEFAULT_LANGUAGE := en
 TW_NO_SCREEN_BLANK := true
 TW_NO_BATT_PERCENT := false
-
-AB_OTA_PARTITIONS += \
-    boot \
-    system \
-    vendor
-
-# A/B OTA dexopt package
-PRODUCT_PACKAGES += otapreopt_script
-
-
