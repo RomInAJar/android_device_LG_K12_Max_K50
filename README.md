@@ -1,4 +1,4 @@
-# TWRP device tree for Infinix S4
+# TWRP Device Tree For Infinix S4
 
 ## About Device
 
