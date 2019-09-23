@@ -1,4 +1,4 @@
-# TWRP Device Tree For Infinix S4
+# TWRP Device Tree For Infinix S4 (X626) 32+3
 
 ## About Device
 
@@ -12,9 +12,9 @@ CPU     | Octa-core 2.0 GHz Cortex-A53 Helio P22
 Platform | MediaTek MT6762
 GPU     | PowerVR GE8320
 Architecture | 64 bit
-Memory  | 3/6 GB RAM
+Memory  | 3 GB RAM
 Shipped Android Version | 	Android 9.0 Pie
-Storage | 32/64 GB F2FS (expandable storage up to 256GB (VFAT))
+Storage | 32 GB F2FS (expandable storage up to 256GB (VFAT))
 Battery | 4000 mAh
 Height | 156 mm
 Width | 75 mm
@@ -45,7 +45,7 @@ Network | Bands
 4G | LTE band 1(2100), 3(1800), 5(850), 8(900), 38(2600), 40(2300), 41(2500)
 Speed | HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps
 
-**This device tree can be used to build TWRP for Infinix S4**
+**This device tree can be used to build TWRP for Infinix S4 (X626) 32+3**
 
 
 ## Build Instructions
