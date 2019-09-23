@@ -1,3 +1,3 @@
 for var in eng user userdebug; do
-  add_lunch_combo omni_X626-$var
+  add_lunch_combo omni_X626B-$var
 done
