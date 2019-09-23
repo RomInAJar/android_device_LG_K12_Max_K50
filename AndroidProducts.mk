@@ -15,5 +15,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_X626.mk
+    $(LOCAL_DIR)/omni_X626B.mk
 
