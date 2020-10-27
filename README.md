@@ -4,7 +4,9 @@
 
 ![LG K12 Max / K50](https://fdn2.gsmarena.com/vv/pics/lg/lg-k50-k12-max-lmx520bmw.jpg)
 
-### Specifications
+___
+
+## Specifications/Especificações
 
 Component Type | Details
 -------:|:-------------------------
@@ -24,8 +26,8 @@ Display | 6.26" (97.8 cm2)
 Screen resolution | 720 x 1520 pixels
 Pixel density | 169 PPI
 Video | 1080p, 720p video, 30fps
-Primary Camera | 13 MP + 2 MP Double Rear Camera, PDAF
-Secondary Camera | 13 MP, f/2.0, 1.6µm
+Primary Camera | 13 MP + 2 MP Double Rear Camera, F 2.2 + F 2.4
+Secondary Camera | 13 MP, f/2.0
 Quick charging | No
 Wifi | Yes, IEEE802.11 a/b/g/n, Supports 5G Wi-Fi Signal / Wi-Fi Direct / Wi-Fi Display
 Bluetooth | v5.0, Bluetooth HID, A2DP, LE
@@ -46,8 +48,7 @@ Network | Bands
 4G | LTE band 1(2100), 3(1800), 5(850), 8(900), 38(2600), 40(2300), 41(2500)
 Speed | HSPA 42.2/5.76 Mbps, LTE Cat4 150/50 Mbps
 
-**This device tree can be used to build TWRP for Infinix S4**
-
+___
 
 ## Build Instructions
 ```sh
@@ -56,3 +57,11 @@ export ALLOW_MISSING_DEPENDENCIES=true
 lunch omni_X626-eng
 mka recoveryimage
 ```
+
+___
+
+## Thanks/Links
+
+[LG K12 Max - Specs/Especificações](https://www.tudocelular.com/LG/fichas-tecnicas/n5300/LG-K12-Max.html)
+
+[LG K50 - Specs](https://www.gsmarena.com/lg_k50-9586.php)
